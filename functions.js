@@ -36,3 +36,13 @@ difference(6,5);
 // Hello World
 // The string testytester is too long
 // 1
+//////////////////////////////////
+// Using the function expression syntax, create a new function named advancedGreeting.
+/////////////////////////////////
+
+// It should accept hour as a parameter
+// If the hour is less than 12, return a "Good morning" greeting
+// If the hour is between 12 and 18, return a "Good afternoon" greeting
+// If the hour is between 18 and 24, return a "Good night" greeting
+// All other values should return "Invalid hour input".
+// Can we access variables created inside the scope of a function outside of that function? Can a function access variables created in a parent scope?
