@@ -25,4 +25,8 @@ const fruits3 = [
 const found = fruits1.find(function(item){
     return item === 'apple';
 })
-console.log(found);
+// console.log(found);
+
+fruits2.forEach(function(item,index,array){
+    console.log(item,index)
+})
